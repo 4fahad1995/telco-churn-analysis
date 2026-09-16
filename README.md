@@ -46,3 +46,9 @@ Two-page interactive Power BI dashboard:
 ![Priority Segments](page2_priority.png)
 
 *(Open `Telco_Churn_BI.pbix` in Power BI Desktop for the interactive version.)*
+
+## Recommendations
+- Target the highest-risk segment directly (Month-to-month + Electronic check + Fiber optic — 60.37% churn). This group can be identified proactively using the criteria that define it. Recommend: (a) a contract-upgrade incentive — e.g., a discount for switching from month-to-month to a 1-year term — and (b) a proactive retention outreach process flagging customers matching all three risk criteria before they show signs of leaving.
+- Investigate the root cause of Fiber optic churn (41.89% churn rate, top segment by revenue exposure). Start with pricing benchmarking against competitors and a review of service reliability/customer satisfaction data, since the dataset alone can't distinguish a pricing issue from a service-quality issue. In parallel, pilot a targeted retention discount for fiber customers given the scale of revenue at risk.
+- Strengthen the first 90 days of the customer lifecycle (churn peaks at ~62% in month 1, declining steadily after). Introduce a structured first-90-days program — e.g., proactive check-ins at 30/60/90 days, an early loyalty incentive, or simplified onboarding — to reduce the sharp early drop-off before it happens.
+- Investigate senior citizen churn separately, starting with a dedicated support channel (41.68% churn vs. 23.61% for non-seniors). This factor moves opposite to the Partner/Dependents pattern, suggesting a distinct driver. Pilot a dedicated senior-support channel (e.g., simplified billing options or a direct support line) alongside further root-cause investigation.
